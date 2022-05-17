@@ -12,7 +12,7 @@
 
 - name: Download and untar the cyhy-reports tarball
   ansible.builtin.unarchive:
-    src: "https://api.github.com/repos/cisagov/cyhy-reports/tarball/develop"
+    src: "https://api.github.com/repos/cisagov/cyhy-reports/tarball/improvement/support-cvss-v3-and-vpr"
     dest: /var/local/cyhy/reports
     remote_src: yes
     extra_opts:
